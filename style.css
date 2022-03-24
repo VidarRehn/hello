@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-color: #ebebeb;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+body .main {
+  margin: 0px 40px;
+}
+
+body .main .introduction {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (min-width: 600px) {
+  body .main .introduction {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
+body .main .introduction .main-logo {
+  width: 180px;
+}
+
+@media (min-width: 600px) {
+  body .main .introduction .main-logo {
+    width: 50%;
+    max-width: 400px;
+  }
+}
+
+body .main .introduction .main-logo img {
+  max-width: 100%;
+}
+
+body .main .introduction .intro-text {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .main .introduction .intro-text h1 {
+  font-size: 40px;
+}
+
+@media (min-width: 800px) {
+  body .main .introduction .intro-text h1 {
+    font-size: 55px;
+  }
+}
+
+body .main .introduction .intro-text h1 span {
+  color: #ff831e;
+}
+
+body .main .introduction .intro-text h2 {
+  font-size: 20px;
+  width: 320px;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 0px;
+  font-style: italic;
+  font-weight: 400;
+  text-align: center;
+}
+
+@media (min-width: 800px) {
+  body .main .introduction .intro-text h2 {
+    width: 400px;
+    font-size: 25px;
+  }
+}
+
+body .main .introduction .intro-text .buttons {
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .main .introduction .intro-text .buttons button {
+  cursor: pointer;
+  margin-top: 10px;
+  height: 45px;
+  width: 180px;
+  border: 6px solid black;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 16px;
+}
+
+body .main .introduction .intro-text .buttons .contact-btn {
+  background-color: black;
+  color: #ebebeb;
+}
+
+body .main .introduction .intro-text .icons {
+  margin-top: 20px;
+  width: 170px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .main .introduction .intro-text .icons a {
+  text-decoration: none;
+  color: black;
+}
+
+body .main .introduction .intro-text .icons i {
+  font-size: 40px;
+}
+/*# sourceMappingURL=style.css.map */
