@@ -145,6 +145,10 @@ body .main .introduction .intro-text .buttons .contact-btn {
   color: #eee;
 }
 
+body .main .introduction .intro-text .buttons .cv-btn {
+  color: black;
+}
+
 body .main .introduction .intro-text .icons {
   margin-top: 20px;
   width: 170px;
